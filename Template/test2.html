@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template</title>
+	<link rel="stylesheet" type="text/css" href="assest/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assest/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+  
+
+  <script type="text/javascript" src="assest/js-new/bootstrap.min.js"></script>
+<!-- Botstrap tooltips -->
+<script type="text/javascript" src="assest/js-new/jquery.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="assest/js-new/mdb.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="assest/js-new/popper.min.js"></script>
+<style type="text/css">
+
+	body {
+  margin: 0;
+  font-family: "Segoe UI";
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #ebe1c3;
+  position: fixed;
+  height: 625px;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #c16ecf;
+  color: white;
+}
+
+.content {
+	background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  text-decoration-color: #ab4e19;
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 625px;
+}
+.card {
+  margin-top: 150px;
+  width: 40rem;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  .content {margin-left: 0;}
+  .card { width: 40rem; }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .card { width: 40rem; }
+}
+</style>
+</head>
+<body>
+	
+	
+<div class="sidebar">
+	<img src="images/rankguru-evidya-logo.16b5bf0f.png" style=" margin-top:10px; height: 60px; width: 150px; margin-left: 50px;">
+	<br><br>
+	<a href="index.html"><h3><b>Rankguru Reports</b></h3></a>
+	<h6><i class="fa fa-user mr-1"></i><b>User Management</b></h6>
+  
+  <a href="export.html"><i class="fa fa-users mr-1"></i>Export RankGuru Users List</a>
+  <a href="user.html"><i class="fa fa-search mr-1"></i>Find One User</a><br>
+    <h6><i class="fa fa-life-ring mr-1"></i><b>Test Reports</b></h6>
+  <a href="test1.html"><i class="fa fa-angle-right mr-1"></i>Test Results using CSV File</a>
+  <a href="test2.html"><i class="fa fa-angle-right mr-1"></i>Many Students-Test Reports</a>
+  <a href="test3.html"><i class="fa fa-angle-right mr-1"></i>Student-Single Test Result</a>
+  <a href="test4.html"><i class="fa fa-angle-right mr-1"></i>Student-All Test Reslts</a>
+</div>
+
+<div class="content text-center">
+  <div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+</body>
+</html>
